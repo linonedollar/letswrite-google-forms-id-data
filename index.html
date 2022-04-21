@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Google表單，輸入ID後自動帶入其它欄位資料 - August - Let's Write</title>
+    <title>每日疫情回報</title>
     <link rel="canonical" href="https://letswritetw.github.io/letswrite-google-forms-id-data/"/>
     <meta property="og:url" content="https://letswritetw.github.io/letswrite-google-forms-id-data/"/>
     <meta property="fb:app_id" content="2435108729902508"/>
@@ -46,12 +46,8 @@
       </div>
       <section class="kv w-640"><img src="https://picsum.photos/640/360" width="640" height="360" alt="主視覺"/></section>
       <section class="form w-640">
-        <div class="text-center">
-          <h1>Google表單，輸入ID後自動帶入其它欄位資料</h1>
-          <p>筆記文：<a href="https://letswrite.tw/google-forms-id-data/" target="_blank">Let's Write</a></p>
-        </div>
         <div class="form-group">
-          <label for="main_id">請輸入 ID（0101 - 0112）</label>
+          <label for="main_id">請輸入 ID（</label>
           <input class="form-control" id="main_id" type="number" v-model="id" @input="limitIdLen(id)"/>
         </div>
         <div class="two-col">
